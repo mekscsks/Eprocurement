@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "require": {
         "phpoffice/phpspreadsheet": "^5.5",
@@ -6,3 +7,14 @@
         "phpmailer/phpmailer": "^7.0"
     }
 }
+=======
+{
+    "require": {
+        "google/apiclient": "2.15",
+        "phpoffice/phpspreadsheet": "^5.5",
+        "vlucas/phpdotenv": "^5.6",
+        "phpoffice/phpword": "^1.4",
+        "phpmailer/phpmailer": "^7.0"
+    }
+}
+>>>>>>> 8223c11d305d6e08eeaaf66c51f7e53ce72fc974
