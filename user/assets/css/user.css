@@ -1,0 +1,48 @@
+/* user/assets/css/user.css */
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: #F4F7FC;
+}
+
+.launcher-main {
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.app-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.app-card:hover {
+    transform: translateY(-5px);
+}
+
+.app-icon-wrap {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.app-title {
+    font-weight: 600;
+}
+
+.app-desc {
+    font-size: 13px;
+    color: #666;
+}
+
+.app-card.red {
+    color: #C0272D;
+}
